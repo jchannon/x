@@ -1,4 +1,5 @@
 
+using System;
 using System.Threading.Tasks;
 using CoreTweet;
 using CoreTweet.Core;
@@ -31,7 +32,14 @@ namespace TwitterMW
 
         public async Task<StatusResponse> DeleteTweet(long id)
         {
-            return await this.tokens.Statuses.DestroyAsync(id);
+            try
+            {
+                return await this.tokens.Statuses.DestroyAsync(id);
+            }
+            catch (TwitterException ex)
+            {
+                throw new InvalidOperationException("Cannot delete tweet", ex);
+            }
         }
     }
 }

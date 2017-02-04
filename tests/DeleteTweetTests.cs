@@ -82,7 +82,7 @@ namespace TwitterMWTests
             var tweeterAuthenticator = A.Fake<ITweeterAuthenticator>();
 
             var tweeter = A.Fake<ITweeter>();
-            A.CallTo(() => tweeter.DeleteTweet(999)).Throws(new TwitterException());//This doesnt compile as TwitterException has a private ctor
+            A.CallTo(() => tweeter.DeleteTweet(999)).Throws(new InvalidOperationException("oops"));
             Func<Tokens, ITweeter> func = (_) => tweeter;
 
             server = new TestServer(new WebHostBuilder()

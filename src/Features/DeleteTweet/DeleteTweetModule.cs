@@ -1,8 +1,8 @@
 namespace TwitterMW
 {
-    using CoreTweet;
     using Nancy;
     using Nancy.Security;
+    using System;
 
     public class DeleteTweetModule : NancyModule
     {
@@ -17,7 +17,7 @@ namespace TwitterMW
                 {
                     var data = await tweeter.DeleteTweet((long)args.id);
                 }
-                catch (TwitterException)
+                catch (InvalidOperationException)
                 { }
 
                 return 204;
