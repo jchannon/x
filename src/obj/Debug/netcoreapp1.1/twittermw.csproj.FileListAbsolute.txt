@@ -1,0 +1,11 @@
+/Users/jonathan/Projects/twittermw/src/bin/Debug/netcoreapp1.1/Microsoft.DiaSymReader.Native.x86.dll
+/Users/jonathan/Projects/twittermw/src/bin/Debug/netcoreapp1.1/Microsoft.DiaSymReader.Native.amd64.dll
+/Users/jonathan/Projects/twittermw/src/bin/Debug/netcoreapp1.1/appsettings.json
+/Users/jonathan/Projects/twittermw/src/bin/Debug/netcoreapp1.1/twittermw.deps.json
+/Users/jonathan/Projects/twittermw/src/bin/Debug/netcoreapp1.1/twittermw.runtimeconfig.json
+/Users/jonathan/Projects/twittermw/src/bin/Debug/netcoreapp1.1/twittermw.runtimeconfig.dev.json
+/Users/jonathan/Projects/twittermw/src/bin/Debug/netcoreapp1.1/twittermw.dll
+/Users/jonathan/Projects/twittermw/src/bin/Debug/netcoreapp1.1/twittermw.pdb
+/Users/jonathan/Projects/twittermw/src/obj/Debug/netcoreapp1.1/twittermw.AssemblyInfo.cs
+/Users/jonathan/Projects/twittermw/src/obj/Debug/netcoreapp1.1/twittermw.dll
+/Users/jonathan/Projects/twittermw/src/obj/Debug/netcoreapp1.1/twittermw.pdb

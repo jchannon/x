@@ -1,0 +1,16 @@
+/Users/jonathan/Projects/twittermw/tests/bin/Debug/netcoreapp1.1/Microsoft.DiaSymReader.Native.x86.dll
+/Users/jonathan/Projects/twittermw/tests/bin/Debug/netcoreapp1.1/Microsoft.DiaSymReader.Native.amd64.dll
+/Users/jonathan/Projects/twittermw/tests/bin/Debug/netcoreapp1.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/jonathan/Projects/twittermw/tests/bin/Debug/netcoreapp1.1/xunit.runner.utility.dotnet.dll
+/Users/jonathan/Projects/twittermw/tests/bin/Debug/netcoreapp1.1/xunit.runner.reporters.dotnet.dll
+/Users/jonathan/Projects/twittermw/tests/bin/Debug/netcoreapp1.1/appsettings.json
+/Users/jonathan/Projects/twittermw/tests/bin/Debug/netcoreapp1.1/twittermwtests.deps.json
+/Users/jonathan/Projects/twittermw/tests/bin/Debug/netcoreapp1.1/twittermwtests.runtimeconfig.json
+/Users/jonathan/Projects/twittermw/tests/bin/Debug/netcoreapp1.1/twittermwtests.runtimeconfig.dev.json
+/Users/jonathan/Projects/twittermw/tests/bin/Debug/netcoreapp1.1/twittermwtests.dll
+/Users/jonathan/Projects/twittermw/tests/bin/Debug/netcoreapp1.1/twittermwtests.pdb
+/Users/jonathan/Projects/twittermw/tests/bin/Debug/netcoreapp1.1/twittermw.dll
+/Users/jonathan/Projects/twittermw/tests/bin/Debug/netcoreapp1.1/twittermw.pdb
+/Users/jonathan/Projects/twittermw/tests/obj/Debug/netcoreapp1.1/twittermwtests.AssemblyInfo.cs
+/Users/jonathan/Projects/twittermw/tests/obj/Debug/netcoreapp1.1/twittermwtests.dll
+/Users/jonathan/Projects/twittermw/tests/obj/Debug/netcoreapp1.1/twittermwtests.pdb

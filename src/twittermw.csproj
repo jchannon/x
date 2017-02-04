@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+<ItemGroup Condition="'$(TargetFramework)'=='netcoreapp1.1'">
+  <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="1.1.0" />
+  <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.1.0" />
+  <PackageReference Include="Microsoft.AspNetCore.Owin" Version="1.1.0" />
+  <PackageReference Include="Nancy" Version="2.0.0-clinteastwood" />
+  <PackageReference Include="Microsoft.AspNetCore.Authentication.Twitter" Version="1.1.0" />
+  <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.1.0" />
+  <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="1.1.0" />
+  <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="1.1.0" />
+  <PackageReference Include="CoreTweet" Version="0.7.2.352" />
+  <PackageReference Include="FakeItEasy" Version="3.0.0-beta002-build000066" />
+  <PackageReference Include="Nancy.Validation.FluentValidation" Version="2.0.0-clinteastwood" />
+</ItemGroup>
+
+<ItemGroup>
+  <None Include="../src/appsettings.json" CopyToOutputDirectory="Always" />
+</ItemGroup>
+
+</Project>
