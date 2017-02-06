@@ -15,6 +15,8 @@ namespace TwitterMW
 
             });
 
+
+            //
             Get("/logout", async _ =>
             {
                 await this.Context.GetAuthenticationManager().SignOutAsync("MyCookieMW", new AuthenticationProperties { RedirectUri = "/" });

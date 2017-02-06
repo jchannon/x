@@ -2,7 +2,7 @@ using FluentValidation;
 
 namespace TwitterMW
 {
-    public class TweetValidator : AbstractValidator<Tweet>
+    public class TweetValidator : AbstractValidator<SendTweetModel>
     {
         public TweetValidator()
         {

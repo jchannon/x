@@ -20,7 +20,7 @@ namespace TwitterMW
 
         protected override void ConfigureApplicationContainer(TinyIoCContainer container)
         {
-            container.Register<ITweeterAuthenticator>(this.tweeterAuthenticator);
+            container.Register<ITweeterAuthenticator>(this.tweeterAuthenticator); // 😉
         }
 
         protected override void ConfigureRequestContainer(TinyIoCContainer container, NancyContext context)

@@ -35,12 +35,13 @@ namespace TwitterMWTests
         [Fact]
         public async Task Should_return_logged_out_body()
         {
-            //Give,When
+            //Give, When
             var response = await client.GetAsync("/logout");
             var body = await response.Content.ReadAsStringAsync();
 
             //Then
-            Assert.Equal("Logged out", body);
+            Assert.Equal("Logged out", body); //🤓 😱 😀 🎉
+
         }
 
         [Fact]

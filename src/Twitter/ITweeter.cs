@@ -1,17 +1,19 @@
 namespace TwitterMW
 {
+    using System.Collections.Generic;
     using System.Threading.Tasks;
     using CoreTweet;
-    using CoreTweet.Core;
 
     public interface ITweeter
     {
-        Task<ListedResponse<Status>> GetHomeTimeline(int numberofTweets);
+        Task<IEnumerable<Tweet>> GetHomeTimeline(int numberofTweets);
 
         Task<SearchResult> Search(string searchTerm);
 
-        Task<StatusResponse> SendTweet(Tweet status);
+        Task<StatusResponse> SendTweet(SendTweetModel status);
 
         Task<StatusResponse> DeleteTweet(long id);
+
+        Task<Tweet> GetTweet(long id);
     }
 }

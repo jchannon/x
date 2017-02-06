@@ -20,15 +20,15 @@ namespace TwitterMWTests
 
         private HttpClient client;
 
-        private Tweet tweet;
+        private SendTweetModel tweet;
 
         public SendTweetsTests()
         {
             var tweeterAuthenticator = A.Fake<ITweeterAuthenticator>();
 
             var tweeter = A.Fake<ITweeter>();
-            tweet = new Tweet() { Message = "Who's awesome? You're awesome!" };
-            A.CallTo(() => tweeter.SendTweet(A<Tweet>.That.Matches(x => x.Message == tweet.Message))).Returns(new StatusResponse() { Id = 1 });
+            tweet = new SendTweetModel() { Message = "Who's awesome? You're awesome!" };
+            A.CallTo(() => tweeter.SendTweet(A<SendTweetModel>.That.Matches(x => x.Message == tweet.Message))).Returns(new StatusResponse() { Id = 1 });
             Func<Tokens, ITweeter> func = (_) => tweeter;
 
             server = new TestServer(new WebHostBuilder()
